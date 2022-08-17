@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 500px;
+  background-color: navy;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 7px;
+}
+
+.heading h1 {
+  color: darkorange;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.sides {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sides h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.home-side,
+.away-side {
+  width: 160px;
+}
+
+.score {
+  font-family: "Monoton", cursive;
+  font-size: 80px;
+  background-color: black;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: burlywood;
+  /* color: darkorange; */
+  font-size: 18px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 12px;
+}
