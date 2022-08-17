@@ -1,5 +1,5 @@
-let homeScoreEl = document.querySelector("#home-score-el");
-let awayScoreEl = document.querySelector("#away-score-el");
+const homeScoreEl = document.querySelector("#home-score-el");
+const awayScoreEl = document.querySelector("#away-score-el");
 
 let homeCount = 0;
 let awayCount = 0;
@@ -32,9 +32,4 @@ function twoAwayPoints() {
 function threeAwayPoints() {
   awayCount += 3;
   awayScoreEl.textContent = awayCount;
-}
-
-function twoHomePoint() {
-  count += 2;
-  homeScoreEl.textContent = count;
 }
